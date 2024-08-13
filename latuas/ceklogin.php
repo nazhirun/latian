@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "koneksi.php";
+include "*/koneksi.php";
 
 $userid = $_POST['username'];
 $pass = $_POST['password'];
@@ -17,9 +17,9 @@ if ($op == "in") {
         $_SESSION['foto'] = $c['foto'];
 
         if ($c['adminlevel'] == 1) {
-            header("location:templatehome/BIMA.php");
+            header("*/location:templatehome/BIMA.php");
         } else if ($c['adminlevel'] == 2) {
-            header("location:templatehome/BIMA.php");
+            header("*/location:templatehome/BIMA.php");
         }
     } else {
         echo "<center>LOGIN GAGAL!</center><br>

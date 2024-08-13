@@ -1,11 +1,12 @@
+<?php
+  session_start();
+  include "*/koneksi.php";
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <?php
-  session_start();
-  include "koneksi.php";
-?>
+
     <meta charset="UTF-8">
     <title>Login Form</title>
 
