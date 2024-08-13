@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include "https://majuintech.com/nazhir/latian/latuas//koneksi.php";
+  include "nazhir/latian/latuas//koneksi.php";
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
