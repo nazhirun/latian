@@ -1,6 +1,8 @@
 <?php
 session_start();
 include "*/koneksi.php";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 $userid = $_POST['username'];
 $pass = $_POST['password'];
@@ -32,8 +34,6 @@ if ($op == "in") {
     unset($_SESSION['adminlevel']);
     header("location:index.php");
 }
-?>
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+
+
 ?>
