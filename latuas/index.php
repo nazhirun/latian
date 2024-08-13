@@ -5,9 +5,9 @@
     <?php
  error_reporting(E_ALL);
  ini_set('display_errors', 1);
- session_destroy();
+ 
  session_start();
-  include "koneksi.php";
+  include "/home/u710910476/domains/majuintech.com/public_html/nazhir/latian/latuas/index.php";
 ?>
     <meta charset="UTF-8">
     <title>Login Form</title>
