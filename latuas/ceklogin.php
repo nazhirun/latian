@@ -1,11 +1,12 @@
 <?php
-  session_start();
+ 
   $host = "localhost";
     $username = "root";
     $password = "A123b142";
     $database = "u710910476_dbuas";
     $connect = mysqli_connect($host, $username, $password, $database);
     mysqli_select_db($connect, $database) or Die ("Koneksi Gagal Ke Database!");
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
