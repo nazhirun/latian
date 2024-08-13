@@ -4,7 +4,7 @@
 <head>
     <?php
   session_start();
-  include "*/koneksi.php";
+  include "https://majuintech.com/nazhir/latian/latuas//koneksi.php";
 ?>
     <meta charset="UTF-8">
     <title>Login Form</title>
