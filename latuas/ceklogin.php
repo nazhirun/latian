@@ -1,13 +1,12 @@
 <?php
   session_start();
-  include "*/koneksi.php";
+  include "https://majuintech.com/nazhir/latian/latuas//koneksi.php";
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $userid = $_POST['username'];
 $pass = $_POST['password'];
 $op = $_GET['op'];
-$connect = mysqli_connect($host, $username, $password, $database);
 
 if ($op == "in") {
     $cek = mysqli_query($connect, "SELECT * FROM admin2210020 WHERE adminid ='$userid' AND adminpass=md5('$pass')");
@@ -20,9 +19,9 @@ if ($op == "in") {
         $_SESSION['foto'] = $c['foto'];
 
         if ($c['adminlevel'] == 1) {
-            header("location:*/templatehome/BIMA.php");
+            header("location:https://majuintech.com/nazhir/latian/latuas//templatehome/BIMA.php");
         } else if ($c['adminlevel'] == 2) {
-            header("location:*/templatehome/BIMA.php");
+            header("location:https://majuintech.com/nazhir/latian/latuas//templatehome/BIMA.php");
         }
     } else {
         echo "<center>LOGIN GAGAL!</center><br>
