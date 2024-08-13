@@ -3,7 +3,9 @@
 
 <head>
     <?php
-  session_start();
+ error_reporting(E_ALL);
+ ini_set('display_errors', 1);
+ session_start();
   include "https://majuintech.com/nazhir/latian/latuas//koneksi.php";
 ?>
     <meta charset="UTF-8">
