@@ -6,7 +6,7 @@
  error_reporting(E_ALL);
  ini_set('display_errors', 1);
  session_start();
-  include "nazhir/latian/latuas//koneksi.php";
+  include "nazhir/latian/latuas/koneksi.php";
 ?>
     <meta charset="UTF-8">
     <title>Login Form</title>
