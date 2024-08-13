@@ -7,6 +7,7 @@ ini_set('display_errors', 1);
 $userid = $_POST['username'];
 $pass = $_POST['password'];
 $op = $_GET['op'];
+$connect = mysqli_connect($host, $username, $password, $database);
 
 if ($op == "in") {
     $cek = mysqli_query($connect, "SELECT * FROM admin2210020 WHERE adminid ='$userid' AND adminpass=md5('$pass')");
