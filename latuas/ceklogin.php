@@ -4,7 +4,7 @@
     
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
+include  ('koneksi.php');
 $userid = $_POST['username'];
 $pass = $_POST['password'];
 $op = $_GET['op'];
