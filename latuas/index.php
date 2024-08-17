@@ -6,7 +6,7 @@
  error_reporting(E_ALL);
  ini_set('display_errors', 1);
  session_start();
- include("*/*/koneksi.php");
+ include("https://srv1417-files.hstgr.io/ebcf4269562b59e2/files/public_html/nazhir/latian/latuas/koneksi.php");
  
 ?>
     <meta charset="UTF-8">
