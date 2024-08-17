@@ -7,7 +7,7 @@
  ini_set('display_errors', 1);
  ini_set("allow_url_fopen", 1);
  session_start();
- include('latian/latuas/koneksi.php');
+ get_include_path('latian/latuas/koneksi.php');
  
 ?>
     <meta charset="UTF-8">
