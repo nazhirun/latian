@@ -1,6 +1,6 @@
 <?php
-    $host = "127.0.0.1:3306";
-    $username = "root";
+    $host = "localhost";
+    $username = "u710910476_root";
     $password = "A123b142";
     $database = "u710910476_dbuas";
     $connect = mysqli_connect($host, $username, $password, $database);
