@@ -20,9 +20,9 @@ if ($op == "in") {
         $_SESSION['foto'] = $c['foto'];
 
         if ($c['adminlevel'] == 1) {
-            header("location:BIMA.php");
+            header("location:plugins/BIMA.php");
         } else if ($c['adminlevel'] == 2) {
-            header("location:BIMA.php");
+            header("location:plugins/BIMA.php");
         }
     } else {
         echo "<center>LOGIN GAGAL!</center><br>
